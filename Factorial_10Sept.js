@@ -25,19 +25,18 @@ function readLine() {
  * Create the function factorial here
  */
 function factorial(n){
-    
-    let fact
+    let factt
     while((n-1) > 0){ 
-        let temp = fact
+        let temp = factt
         if(temp != undefined){
-            fact = temp * (n-1)
+            factt = temp * (n-1)
         }
         else{
-            fact = n * (n-1)
+            factt = n * (n-1)
         }
         n = n - 1
     }
-    return fact;
+    return factt;
 }
 
 
